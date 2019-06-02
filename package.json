@@ -1,0 +1,15 @@
+{
+  "name": "nikumar-ghp",
+  "version": "1.0.0",
+  "description": "Nishant's personal website using Github Page",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Nishant",
+  "license": "MIT",
+  "homepage": "https://nishant817.github.io/nikumar-ghp",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
