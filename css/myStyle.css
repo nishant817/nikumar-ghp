@@ -201,3 +201,54 @@ ul.nav-pills {
  position: fixed;
 }
 
+
+/* ------------ Project Tabs ------------- */
+nav > .nav.nav-tabs{
+  border: none;
+  color:#fff;
+  background:#272e38;
+  border-radius:0;
+
+  /* float: left;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 0;
+  border-right: 1px solid transparent;
+  padding-right: 15px; */
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color:#fff;
+  background:#272e38;
+  border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -20%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.proj-tab-content {
+  height: 500px;
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top:5px solid #e74c3c;
+  border-bottom:5px solid #e74c3c;
+  padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #e74c3c;
+  color:#fff;
+  border-radius:0;
+  transition:background 0.20s linear;
+}
+

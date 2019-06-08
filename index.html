@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./css/bootstrap.min.css" >
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <link rel="stylesheet" href="./css/myStyle.css" />
   <link rel="stylesheet" href="./css/myMediaStyle.css" />
 
@@ -135,25 +136,104 @@
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       </div>
+
       <div id="professionalSummary" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <h1>Professional Summary</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol> 
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 style="width:100%;">Here is the first item</h2>
+            </div>
+
+            <div class="carousel-item">
+              <h2 style="width:100%;">Here is the second item</h2>
+            </div>
+
+            <div class="carousel-item">
+              <h2 style="width:100%;">Here is the third item</h2>
+            </div>
+
+          <div class="carousel-item">
+              <h2 style="width:100%;">And the fourth item</h2>
+            </div>
+          </div> 
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class="fas fa-chevron-circle-left" style='font-size:48px;color:red'></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class="fas fa-chevron-circle-right" style='font-size:48px;color:red'></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-      <div id="projects" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-        <h1>Section 4 Submenu 1</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+      <div id="projects" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+        <h1>Projects</h1>
+        <!-- good css: https://bootsnipp.com/snippets/exE6D
+        vertical: https://bootsnipp.com/snippets/E1XZa -->
+        <div class="col-xs-12 ">
+          <nav>
+            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-efm-tab" data-toggle="tab" href="#nav-efm" role="tab" aria-controls="nav-efm" aria-selected="true">
+                Enterprise Fleets
+              </a>
+              <a class="nav-item nav-link" id="nav-ameren-tab" data-toggle="tab" href="#nav-ameren" role="tab" aria-controls="nav-ameren" aria-selected="false">
+                Ameren
+              </a>
+              <a class="nav-item nav-link" id="nav-winchester-tab" data-toggle="tab" href="#nav-winchester" role="tab" aria-controls="nav-winchester" aria-selected="false">
+                Winchester Ammunition
+              </a>
+              <a class="nav-item nav-link" id="nav-equifax-tab" data-toggle="tab" href="#nav-equifax" role="tab" aria-controls="nav-equifax" aria-selected="false">
+                Equifax
+              </a>
+              <a class="nav-item nav-link" id="nav-att-tab" data-toggle="tab" href="#nav-att" role="tab" aria-controls="nav-att" aria-selected="false">
+                AT&amp;T
+              </a>
+            </div>
+          </nav>
+          <div class="tab-content proj-tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-efm" role="tabpanel" aria-labelledby="nav-efm-tab">
+              EFM Details
+            </div>
+            <div class="tab-pane fade" id="nav-ameren" role="tabpanel" aria-labelledby="nav-ameren-tab">
+              Ameren Details
+            </div>
+            <div class="tab-pane fade" id="nav-winchester" role="tabpanel" aria-labelledby="nav-winchester-tab">
+              Winchester details
+            </div>
+            <div class="tab-pane fade" id="nav-equifax" role="tabpanel" aria-labelledby="nav-equifax-tab">
+              Equifax Details
+            </div>
+            <div class="tab-pane fade" id="nav-att" role="tabpanel" aria-labelledby="nav-att-tab">
+              ATT details
+            </div>
+          </div>
+          
+          </div>
+        
       </div>
       <div id="education" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
         <h1>Section 4 Submenu 2</h1>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       </div>
+
+
       <div id="contact" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-        <h1>Section 4 Submenu 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <h1>Contact me</h1>
+        
       </div>
     </div>
 
