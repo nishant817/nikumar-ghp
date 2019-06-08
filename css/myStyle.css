@@ -252,3 +252,40 @@ nav > div a.nav-item.nav-link:focus {
   transition:background 0.20s linear;
 }
 
+
+/* Start Sidebar v1 */
+.sidebar-v1 {
+  height: 100%;
+  /* width: 100px; */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.sidebar-v1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar-v1 a:hover {
+  color: #f1f1f1;
+}
+
+.main-v1 {
+  /* margin-left: 100px;  */
+  /* Same as the width of the sidenav */
+  /* padding: 0px -20px; */
+  margin-left: -50px;
+}
+/* End Sidebar v1 */
+
+.sidebar-icon-container i {
+  font-size: 40px;
+}
