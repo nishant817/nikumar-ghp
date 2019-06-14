@@ -1,0 +1,87 @@
+/* New */
+::ng-deep .customClass > a {
+   border: none;
+   color:#fff;
+   background:#272e38;
+   border-radius:0;
+ }
+ ::ng-deep .customClass > a.nav-link,
+ ::ng-deep .customClass > a.nav-link.active {
+   border: none;
+   padding: 18px 25px;
+   color:#fff;
+   background:#272e38;
+   border-radius:0;
+} 
+::ng-deep .customClass > a.nav-link.active:after {
+   content: "";
+   position: relative;
+   bottom: -60px;
+   left: -20%;
+   border: 15px solid transparent;
+   border-top-color: #e74c3c ;
+}
+::ng-deep .customClass > a.nav-link:hover,
+::ng-deep .customClass > a.nav-link:focus {
+   border: none;
+   background: #e74c3c;
+   color:#fff;
+   border-radius:0;
+   transition:background 0.20s linear;
+}
+
+::ng-deep .tab-content {
+   height: 500px;
+   background: #fdfdfd;
+   line-height: 25px;
+   border: 1px solid #ddd;
+   border-top:5px solid #e74c3c;
+   border-bottom:5px solid #e74c3c;
+   padding:30px 25px;
+}
+
+
+
+
+ /* Original */
+nav > .nav.nav-tabs{
+   border: none;
+   color:#fff;
+   background:#272e38;
+   border-radius:0;
+ }
+ nav > div a.nav-item.nav-link,
+ nav > div a.nav-item.nav-link.active {
+   border: none;
+   padding: 18px 25px;
+   color:#fff;
+   background:#272e38;
+   border-radius:0;
+ }
+ 
+ nav > div a.nav-item.nav-link.active:after {
+   content: "";
+   position: relative;
+   bottom: -60px;
+   left: -20%;
+   border: 15px solid transparent;
+   border-top-color: #e74c3c ;
+ }
+ .proj-tab-content {
+   height: 500px;
+   background: #fdfdfd;
+   line-height: 25px;
+   border: 1px solid #ddd;
+   border-top:5px solid #e74c3c;
+   border-bottom:5px solid #e74c3c;
+   padding:30px 25px;
+ }
+ 
+ nav > div a.nav-item.nav-link:hover,
+ nav > div a.nav-item.nav-link:focus {
+   border: none;
+   background: #e74c3c;
+   color:#fff;
+   border-radius:0;
+   transition:background 0.20s linear;
+ }
