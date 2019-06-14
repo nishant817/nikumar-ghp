@@ -289,3 +289,16 @@ nav > div a.nav-item.nav-link:focus {
 .sidebar-icon-container i {
   font-size: 40px;
 }
+
+.carousel-item {
+  background-color: #7386D5;
+  height: 500px;
+  text-align: center;
+  padding: 10% 20% 0% 20%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size:100px;
+  color:red;
+}
