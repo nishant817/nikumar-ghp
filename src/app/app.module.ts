@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,6 +31,7 @@ import { SkillsComponent } from '../components/skills/skills.component';
     AppRoutingModule,
     CarouselModule.forRoot(),
     TabsModule.forRoot(),
+    ProgressbarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

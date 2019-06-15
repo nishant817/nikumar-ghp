@@ -1,6 +1,30 @@
 <div class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-   <h1>Skills</h1>
+   <h1>{{title}}</h1>
+
+   <div class="row">
+      <div class="col-sm-12 col-md-11 offset-md-1">
+         <div *ngFor="let skill of skills; index as id">
+            <h4>{{skill.sec}}</h4>
+            <div class="row mb-2" *ngFor="let item of skill.items; index as id">
+               <div class="column col-sm-2" style="text-align: right;">{{item.nm}}</div>
+               <progressbar class="column col-sm-10 col-md-8" [max]="max" [value]="item.rt" [type]="getType(item.rt)">
+                  <span class="text-nowrap">{{item.rt}}/10</span>
+               </progressbar>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- <div *ngFor="let skill of skills; index as id">
+      <h4>{{skill.sec}}</h4>
+      <div class="mb-2" *ngFor="let item of skill.items; index as id">
+         <progressbar [max]="max" [value]="item.rt" [type]="getType(item.rt)">
+            <span class="text-nowrap">{{item.nm}} {{item.rt}}/10</span>
+         </progressbar>
+      </div>
+   </div> -->
    
+
+   <!-- <h2>Hardcoded</h2>
    <div class="row">
          <div class="col-sm-1">C#</div>
          <div class="progress col-sm-10">          
@@ -11,38 +35,32 @@
    </div>
    <br>
    
-   <!-- Turquoise -->
+   
    <div class="progress">
       <div class="progress-bar bg-info" style="width:30%"></div>
    </div><br>
    
-   <!-- Orange -->
    <div class="progress">
          <div class="progress-bar bg-warning" style="width:40%"></div>
    </div><br>
    
-   <!-- Red -->
    <div class="progress">
       <div class="progress-bar bg-danger" style="width:50%"></div>
    </div><br>
    
-   <!-- White -->
    <div class="progress border">
       <div class="progress-bar bg-white" style="width:60%"></div>
    </div><br>
    
-   <!-- Grey -->
    <div class="progress">
       <div class="progress-bar bg-secondary" style="width:70%"></div>
    </div><br>
    
-   <!-- Light Grey -->
    <div class="progress border">
       <div class="progress-bar bg-light" style="width:80%"></div>
    </div><br>
    
-   <!-- Dark Grey -->
    <div class="progress">
       <div class="progress-bar bg-dark" style="width:90%"></div>
-   </div>
+   </div> -->
 </div>

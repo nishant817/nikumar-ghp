@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./prof.component.css']
 })
 export class ProfComponent {
-  
+  title = 'Professional Summary';  
 }
