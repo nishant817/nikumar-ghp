@@ -1,9 +1,12 @@
-body {
+.main {
    font-family: 'Poppins', sans-serif;
-   background: #fafafa;
-   padding-top: 150px;
+   padding-top: 50px;
 }
 
+.separator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* Start Sidebar v1 */
 .sidebar-v1 {

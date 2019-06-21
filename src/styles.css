@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+   position: relative;
+   background-color: #E4E4E4;
+}
+
+
+/* https://bootstrapious.com/p/bootstrap-sidebar
+
+color combinations:
+dark:
+#DC3D24
+#232B2B
+#FFFFFF
+#E3AE57
+
+dark 2:
+#222930
+#4EB1BA
+#E9E9E9
+
+light
+#221E1D
+#ECEAE0
+#63AA9C
+#E9633B
+
+Mix1:
+#E4E4E4
+#F1684E
+#1B1B1B */
+
