@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "body {\n   position: relative;\n   background-color: #E4E4E4;\n}\n\n\n/* https://bootstrapious.com/p/bootstrap-sidebar\n\ncolor combinations:\ndark:\n#DC3D24\n#232B2B\n#FFFFFF\n#E3AE57\n\ndark 2:\n#222930\n#4EB1BA\n#E9E9E9\n\nlight\n#221E1D\n#ECEAE0\n#63AA9C\n#E9633B\n\nMix1:\n#E4E4E4\n#F1684E\n#1B1B1B */\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0dBQ0csa0JBQWtCO0dBQ2xCLHlCQUF5QjtBQUM1Qjs7O0FBR0E7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O1NBdUJTIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICBiYWNrZ3JvdW5kLWNvbG9yOiAjRTRFNEU0O1xufVxuXG5cbi8qIGh0dHBzOi8vYm9vdHN0cmFwaW91cy5jb20vcC9ib290c3RyYXAtc2lkZWJhclxuXG5jb2xvciBjb21iaW5hdGlvbnM6XG5kYXJrOlxuI0RDM0QyNFxuIzIzMkIyQlxuI0ZGRkZGRlxuI0UzQUU1N1xuXG5kYXJrIDI6XG4jMjIyOTMwXG4jNEVCMUJBXG4jRTlFOUU5XG5cbmxpZ2h0XG4jMjIxRTFEXG4jRUNFQUUwXG4jNjNBQTlDXG4jRTk2MzNCXG5cbk1peDE6XG4jRTRFNEU0XG4jRjE2ODRFXG4jMUIxQjFCICovXG5cbiJdfQ== */", '', '']]
 
 /***/ }),
 
