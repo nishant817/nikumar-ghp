@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { TabsModule } from 'ngx-bootstrap/tabs';
-import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+// import { CarouselModule } from 'ngx-bootstrap/carousel';
+// import { TabsModule } from 'ngx-bootstrap/tabs';
+// import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,9 +29,9 @@ import { SkillsComponent } from '../components/skills/skills.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule.forRoot(),
-    TabsModule.forRoot(),
-    ProgressbarModule.forRoot()
+    //CarouselModule.forRoot(),
+    //TabsModule.forRoot(),
+    //ProgressbarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
